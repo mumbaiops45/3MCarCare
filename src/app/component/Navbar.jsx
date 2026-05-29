@@ -74,19 +74,19 @@ const Navbar = () => {
             <li className="cursor-pointer hover:text-red-500 transition">About Us</li>
 
 
-            <li className="relative group">
+            {/* <li className="relative group">
               <div className="flex items-center gap-1 cursor-pointer hover:text-red-500 transition">
                 Services
                 <ChevronDown className="w-4 h-4 mt-[1px]" />
-              </div>
+              </div> */}
 
-              <div
+              {/* <div
                 className={`absolute left-0 top-12 invisible opacity-0 group-hover:visible group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300 min-w-[320px] rounded-2xl overflow-hidden shadow-2xl border ${navTheme === "dark"
                     ? "bg-[#111111] border-white/10"
                     : "bg-black border-gray-200"
                   }`}
-              >
-                <div className="py-3">
+              > */}
+                {/* <div className="py-3">
                   {services.map((service, index) => (
                     <div
                       key={index}
@@ -98,9 +98,9 @@ const Navbar = () => {
                       {service}
                     </div>
                   ))}
-                </div>
-              </div>
-            </li>
+                </div> */}
+              {/* </div>
+            </li> */}
 
             <li className="cursor-pointer hover:text-red-500 transition">FAQ</li>
             <li className="cursor-pointer hover:text-red-500 transition">Blog</li>
