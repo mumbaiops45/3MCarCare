@@ -49,8 +49,9 @@ const Serv = () => {
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/70 transition-all duration-500"></div>
             <div className="absolute inset-0 flex flex-col justify-end p-6">
               <h2
-                className="text-white text-xl font-bold opacity-0 translate-y-6
+                className="text-white text-md  opacity-0 translate-y-6
                 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"
+                style={{ fontSize: "21px", fontWeight: 500}}
               >
                 {item.title}
               </h2>
@@ -65,7 +66,9 @@ const Serv = () => {
 
           
             <div className="p-5">
-              <h2 className="text-2xl font-bold text-white group-hover:opacity-0 transition-all duration-300">
+              <h2 className=" text-white group-hover:opacity-0 transition-all duration-300"
+              style={{ fontSize: "21px", fontWeight: 500}} 
+              >
                 {item.title}
               </h2>
             </div>

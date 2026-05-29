@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { faqData } from "../data/data";
+import { Phone, MessageCircle } from "lucide-react";
 
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -41,8 +42,8 @@ const Faq = () => {
 
                         <div
                             className={`px-6 overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index
-                                    ? "max-h-40 opacity-100 pb-5"
-                                    : "max-h-0 opacity-0"
+                                ? "max-h-40 opacity-100 pb-5"
+                                : "max-h-0 opacity-0"
                                 }`}
                         >
                             <p className="text-black leading-7">{item.a}</p>
@@ -65,9 +66,34 @@ const Faq = () => {
                             Protect, clean and upgrade your car with professional 3M services.
                         </p>
 
-                        <button className="bg-black hover:bg-gray-900 px-10 py-4 rounded-full uppercase tracking-[3px] font-semibold transition-all duration-500 hover:scale-105">
+                        {/* <button className="bg-black hover:bg-gray-900 px-10 py-4 rounded-full uppercase tracking-[3px] font-semibold transition-all duration-500 hover:scale-105">
                             Book Now
-                        </button>
+                        </button> */}
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a
+                                href="tel:+919380104749"
+                                className="flex items-center justify-center gap-2 bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold transition"
+                            >
+                                {/* <Phone size={20} /> */}
+                                Book Now
+                            </a>
+                            <a
+                                href="tel:+919380104749"
+                                className="flex items-center justify-center gap-2 bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-xl font-semibold transition"
+                            >
+                                <Phone size={20} />
+                                Call Now
+                            </a>
+                            <a
+                                href="https://wa.me/919380104749"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold transition"
+                            >
+                                <MessageCircle size={20} />
+                                WhatsApp Now
+                            </a>
+                        </div>
                     </div>
 
                 </div>
