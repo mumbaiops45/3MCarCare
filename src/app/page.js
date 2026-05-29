@@ -7,11 +7,11 @@ import Faq from "./component/Faq";
 export default function Page() {
   return (
     <div >
-      <Home/>
+      {/* <Home/>
       <Services/>
       <Serv/>
       <Enquiry/>
-      <Faq/>
+      <Faq/> */}
     </div>
   );
 }

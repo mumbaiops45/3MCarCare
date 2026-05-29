@@ -4,7 +4,6 @@ import {
   Phone,
   Mail,
   ChevronRight,
-  ArrowUpRight,
 } from "lucide-react";
 
 const Footer = () => {
@@ -16,7 +15,6 @@ const Footer = () => {
 
       <div className="relative z-10 border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-         
           <div className="grid gap-12 lg:grid-cols-4 md:grid-cols-2">
             <div>
               <img
@@ -24,23 +22,17 @@ const Footer = () => {
                 alt="3M Car Care Studio"
                 className="mb-6 w-40 object-contain"
               />
-
               <p className="mb-6 text-sm leading-7 text-gray-400">
                 Premium car detailing, ceramic coating, paint protection film,
                 and luxury car care solutions designed to keep your vehicle
                 looking flawless.
               </p>
-
-              
               <div className="flex items-center gap-4">
                 <a
                   href="#"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all duration-300 hover:border-red-500 hover:bg-red-500"
                 >
-                 
                 </a>
-
-                
               </div>
             </div>
 
@@ -126,10 +118,6 @@ const Footer = () => {
                   "Paint Protection Film (PPF)",
                   "Ceramic Coating",
                   "Graphene Coating",
-                //   "Interior Detailing",
-                //   "Sun Control Film",
-                //   "Exterior Detailing",
-                //   "Custom Car Styling",
                 ].map((item, index) => (
                   <li key={index}>
                     <a
@@ -143,7 +131,6 @@ const Footer = () => {
                         />
                         {item}
                       </span>
-
                     </a>
                   </li>
                 ))}

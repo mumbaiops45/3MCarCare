@@ -92,19 +92,6 @@ const CarSection = ({ item }) => {
 };
 
 
-
-// const Services = () => {
-//   return (
-//     <main className="bg-black">
-//       {carsData.map((item, index) => (
-//         <CarSection key={index} item={item} />
-//       ))}
-//     </main>
-//   );
-// };
-
-// export default Services;
-
 const Services = () => {
   return (
     <main className="bg-black">
