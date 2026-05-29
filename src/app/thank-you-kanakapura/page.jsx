@@ -11,7 +11,7 @@ const Page = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Thank You for Your Enquiry
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-md md:text-md text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Thank you for contacting{" "}
             <span className="font-semibold text-white">
               3M Car Care Studio Kanakapura Road

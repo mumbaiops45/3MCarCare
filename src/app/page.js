@@ -8,7 +8,7 @@ import About from "./component/About";
 export default function Page() {
   return (
     <div >
-      <About/>
+      {/* <About/> */}
       {/* <Home/>
       <Services/>
       <Serv/>

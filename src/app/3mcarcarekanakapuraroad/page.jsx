@@ -4,11 +4,13 @@ import Services from "../component/Services";
 import Serv from "../component/Serv";
 import Enquiry from "../component/Enquiry";
 import Faq from '../component/Faq';
+import About from '../component/About';
 
 const page = () => {
   return (
     <div>
       <Home/>
+      <About/>
       <Services/>
       <Serv/>
       <Enquiry/>
