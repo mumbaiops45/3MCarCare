@@ -71,13 +71,13 @@ const CarSection = ({ item }) => {
                 </div> */}
                 <div className="mt-5 relative overflow-hidden rounded-2xl border-2 border-transparent bg-gray-200 p-5 transition-all duration-300 hover:border-red-500 hover:shadow-lg">
 
-  {/* <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-red-500 via-red-400 to-red-600" /> */}
+                  {/* <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-red-500 via-red-400 to-red-600" /> */}
 
-  <p className="text-sm md:text-base leading-7 text-gray-700">
-    {item.description}
-  </p>
+                  <p className="text-sm md:text-base leading-7 text-gray-700">
+                    {item.description}
+                  </p>
 
-</div>
+                </div>
               </div>
             </div>
           </div>

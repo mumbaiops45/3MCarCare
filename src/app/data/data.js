@@ -6,7 +6,7 @@ export const carsData = [
     subtitle: "Luxury And Comfort",
     description:
       "3M Car Care Studio in Kanakapura Road is designed for car owners who want reliable service, genuine solutions and convenient access from Banashankari, RR Nagar, JP Nagar, Uttarahalli, Konanakunte and nearby South Bangalore areas.Our focus is simple. Protect your car, improve its appearance and maintain long term value with the right car care treatment.",
-    image: "/carservice.jpg",
+    image: "/3mcarservice.png",
   },
 
   {
