@@ -1,7 +1,7 @@
 
 import "./globals.css";
 import Navbar from "./component/Navbar";
-import WhatsAppButton from "./component/WhatsAppButton";
+import FloatingContactButtons from "./component/WhatsAppButton";
 import Footer from "./component/Footer";
 
 
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body cz-shortcut-listen="true">
         <Navbar/>
         {children}
-        <WhatsAppButton />
+        <FloatingContactButtons/>
         <Footer/>
         </body>
     </html>

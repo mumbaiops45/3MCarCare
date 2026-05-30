@@ -104,7 +104,7 @@ const Enquiry = () => {
         hover:shadow-[0_20px_50px_rgba(239,68,68,0.15)]
       "
     >
-      {/* Premium Glow */}
+      
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-red-500/10 via-transparent to-transparent" />
 
       <div className="relative z-10">
