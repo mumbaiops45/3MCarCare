@@ -18,7 +18,7 @@ const Serv = () => {
         }`}
       >
         <h1 className="text-4xl md:text-6xl font-extrabold uppercase tracking-[4px]">
-          Updates
+         Services
         </h1>
         <div className="w-24 h-[3px] bg-black mx-auto mt-5"></div>
       </div>
