@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import {carsData} from "../data/data"
+import { carsData } from "../data/data"
 
 
 const CarSection = ({ item }) => {
@@ -37,7 +37,7 @@ const CarSection = ({ item }) => {
       ref={sectionRef}
       className="relative bg-black text-white h-[220vh]"
     >
-      <div className="sticky top-0 h-screen overflow-hidden">       
+      <div className="sticky top-0 h-screen overflow-hidden">
         <div className="absolute inset-0 z-20 flex items-end pb-24 md:pb-28">
           <div className="w-full px-6 md:px-10">
             <div className="max-w-[420px]">
@@ -59,9 +59,25 @@ const CarSection = ({ item }) => {
                   transform: `translateY(${textTranslate}px)`,
                 }}
               >
-                <p className="text-md md:text-md leading-relaxed text-white">
-                  {item.description}
-                </p>
+
+                {/* <div className="mt-5 relative overflow-hidden rounded-2xl border bg-gray-200 p-5">
+
+                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-red-500 via-red-400 to-red-600" />
+
+                  <p className="text-sm md:text-base leading-7 text-gray-700">
+                    {item.description}
+                  </p>
+
+                </div> */}
+                <div className="mt-5 relative overflow-hidden rounded-2xl border-2 border-transparent bg-gray-200 p-5 transition-all duration-300 hover:border-red-500 hover:shadow-lg">
+
+  {/* <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-red-500 via-red-400 to-red-600" /> */}
+
+  <p className="text-sm md:text-base leading-7 text-gray-700">
+    {item.description}
+  </p>
+
+</div>
               </div>
             </div>
           </div>
@@ -85,9 +101,9 @@ const CarSection = ({ item }) => {
           </div>
         </div>
       </div>
-    
+
     </section>
-   
+
   );
 };
 
