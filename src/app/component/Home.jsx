@@ -52,12 +52,11 @@ const Home = () => {
                         with precision, durability, and a flawless finish that keeps your car
                         looking brand new.
                     </p>
-                   
+
                     <div
                         className={`mt-8 flex flex-col sm:flex-row gap-4 transition-all duration-1000 delay-500 ease-out
   ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
                     >
-
                         <a href="tel:+919380104749">
                             <button className="px-6 py-3 bg-[#b8d2ea] text-black font-semibold uppercase tracking-widest hover:scale-105 transition w-full">
                                 Enquire Now

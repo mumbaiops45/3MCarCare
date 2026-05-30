@@ -21,7 +21,7 @@ const Page = () => {
             vehicle.
           </p>
         </div>
-        <div className="px-6 md:px-12 py-10">
+        {/* <div className="px-6 md:px-12 py-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
               "PPF",
@@ -41,7 +41,7 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         <div className="bg-gray-50 px-6 md:px-12 py-10">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             What Happens Next?
