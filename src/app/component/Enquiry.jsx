@@ -33,7 +33,7 @@ const Enquiry = () => {
 
 
 
-          <div className="grid grid-cols-2 gap-4 mt-10">
+          {/* <div className="grid grid-cols-2 gap-4 mt-10">
 
             <div className="bg-white/10 backdrop-blur-md border border-white/10 rounded-2xl p-5 transition-colors duration-300 hover:border-red-500">
               <h3 className="text-2xl font-bold text-red-500">
@@ -66,7 +66,59 @@ const Enquiry = () => {
               <h3 className="text-2xl font-bold text-red-500">Service Guidance Before Booking</h3>
               <p className="text-gray-300 mt-2">We recommend the right car care treatment based on your car model, paint condition, usage and budget.</p>
             </div>
-          </div>
+          </div> */}
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+  {[
+    {
+      title: "Professional 3M Car Care Solutions",
+      desc: "We use trusted 3M car care solutions and follow a careful service process to improve your vehicle's look, comfort and protection.",
+    },
+    {
+      title: "Convenient South Bangalore Location",
+      desc: "Our Kanakapura Road studio is easily accessible from Banashankari, RR Nagar, JP Nagar, Uttarahalli, Konanakunte and nearby areas.",
+    },
+    {
+      title: "Complete Car Protection Services",
+      desc: "From Car Detailing in Kanakapura Road to Sun Control Film for Cars in Kanakapura Road, our services are designed to protect, clean and enhance your vehicle.",
+    },
+    {
+      title: "Service Guidance Before Booking",
+      desc: "We recommend the right car care treatment based on your car model, paint condition, usage and budget.",
+    },
+  ].map((item, index) => (
+    <div
+      key={index}
+      className="
+        group
+        relative
+        overflow-hidden
+        rounded-3xl
+        border border-white/10
+        bg-white/[0.05]
+        backdrop-blur-xl
+        p-4 md:p-3
+        transition-all duration-500
+        hover:-translate-y-2
+        hover:border-red-500/60
+        hover:shadow-[0_20px_50px_rgba(239,68,68,0.15)]
+      "
+    >
+      {/* Premium Glow */}
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-red-500/10 via-transparent to-transparent" />
+
+      <div className="relative z-10">
+        <h3 className="text-xl md:text-2xl font-bold text-white mb-4 leading-tight">
+          <span className="text-red-500">{item.title}</span>
+        </h3>
+
+        <p className="text-gray-400 text-sm md:text-base leading-relaxed">
+          {item.desc}
+        </p>
+      </div>
+    </div>
+  ))}
+</div>
 
         </div>
 
